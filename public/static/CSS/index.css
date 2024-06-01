@@ -1,0 +1,55 @@
+body{
+    background-color: #000000;
+    text-align: center;
+    position: fixed;
+    inset: 0px;
+    width: 60rem;
+    height: 25rem;
+    max-width: 100vw;
+    max-height: 80dvh;
+    margin: auto;
+    font-family: 'Fredoka One';
+}
+
+
+/* Nav Links */
+#tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-tabs .nav-link {
+    color: #949494;
+    background-color: #d3d3d3;
+
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-top: 2px solid #949494;
+    border-left: 2px solid #949494;
+    border-right: 2px solid #949494;
+}
+
+/* Textarea */
+#textarea{
+    width: 75%;
+    height: 50%;
+    font-size: 1.5em;
+    color: #525252;
+    background-color: #d3d3d3;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Confetti */
+canvas#confetti {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    pointer-events: none;
+}
